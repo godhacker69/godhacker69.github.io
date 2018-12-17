@@ -1,0 +1,150 @@
+body{
+font-family: courier;
+/*height: 100%;
+margin: 0;*/
+
+
+  background-image: url("bilder_hovedside/bakgrunntest1.jpg");
+
+
+}
+
+
+header{
+
+  margin-left: auto;
+  text-align: center;
+  margin-top: 80px;
+  font-family: sans-serif;
+}
+img{
+  margin-right: auto;
+  margin-left: auto;
+
+ /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+
+
+main{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 20px;
+  /*background-color: lightblue;*/
+  padding: 30px;
+  text-align: center;
+  border-radius: 5px;
+  grid-column-gap: 10px;
+
+
+}
+
+video{
+width: 1420px;
+height: 500px;
+}
+
+footer{
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+
+
+.footertext{
+  border-width: 6px;
+
+  border-style: solid;
+  border-color: black;
+  margin-left: 50px;
+  margin-right: 50px;
+  background: rgba(255,255,255,.5)
+
+
+
+
+
+}
+.navbar{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style-type: none;
+  text-decoration: none;
+  background-color: white;
+  grid-gap: 10px;
+
+
+
+}
+.navbar a{
+  display: block;
+  padding: 8px 16px;
+  color: inherit;
+  text-decoration: none;
+
+
+}
+
+
+
+main a, main1 a
+{
+  list-style-type: none;
+  text-decoration: none;
+  cursor:pointer;
+  color: black;
+
+
+
+
+
+
+
+
+}
+header a:hover{
+  background-color: #555;
+  cursor:pointer;
+  color: white;
+}
+header img{
+
+    margin-right: auto;
+    margin-left: auto;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 53%;
+  }
+a{
+  transition: all .2s ease-in-out;
+}
+a:hover{
+  transform: scale(1.1);
+}
+#hovedlenke{
+  background-color:inherit;
+}
+.parkski, .pudderski, .randoski{
+  margin-top: 50px;
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 20px;
+
+  padding: 30px;
+  text-align: center;
+  border-radius: 5px;
+  grid-column-gap: 8%;
+  margin-right: auto;
+
+}
+.bindingerparkski, .pudderbindinger, .randobindinger{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 20px;
+
+  padding: 30px;
+  text-align: center;
+  border-radius: 5px;
+  grid-column-gap: 8%;
+
+}

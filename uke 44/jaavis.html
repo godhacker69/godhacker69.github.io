@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+
+      ul {
+        list-style-type: none;
+        margin: 10px;
+        padding: 10px;
+        background-color:red
+
+
+      }
+      body{
+        background-color: lightblue;
+      }
+
+      li {
+    display: inline;
+        }
+
+      body{
+        text-align: center;
+        max-width: 900px;
+        margin:auto;
+        margin-top: 10px;
+      }
+      #innhold{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(100px,auto);
+
+      }
+      #innhold div{
+        background:pink;
+        padding:30px;
+      }
+      #innhold div:nth-child(even){
+        background:pink;
+      }
+
+      .en{
+        grid-column: span 2;
+        grid-row: span 2;
+        margin-bottom: 30px;
+        margin-right: 10px;
+      }
+
+      .to{
+        grid-row: span 2;
+        margin-bottom: 30px;
+
+      }
+      img{
+        width: 100%;
+      }
+
+      .tre{
+        grid-column: span 3;
+        margin-bottom: 30px;
+      }
+      .fire{
+        grid-row: span 2;
+        margin-bottom: 30px;
+        margin-right: 10px;
+      }
+      .fem{
+        grid-column: span 2;
+        grid-row: span 2;
+        margin-bottom: 30px;
+
+      }
+
+      .seks{
+        grid-column: 1 /4;
+        margin-bottom: 30px;
+      }
+      .sju{
+        grid-column: span 2;
+        margin-bottom: 30px;
+
+      }
+      .åtte{
+        grid-column: span 2;
+        grid-row: span 2;
+        margin-bottom: 30px;
+        margin-right: 10px;
+      }
+    </style>
+
+
+  </head>
+  <body>
+    <header>
+      <h1>
+      NYHETENE</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </header>
+    <main>
+      <section id="innhold">
+        <div class="en">
+        <img src="" alt="">
+        <h4>hei</h4>
+        <p></p>
+       </div>
+
+
+        <div class="to">
+          <img src="" alt="">
+          <h4></h4>
+          <p>hei</p>
+
+        </div>
+        <div class="tre">
+          <img src="" alt="">
+          <h4></h4>
+          <p>hei</p>
+        </div>
+
+        <div class="fire">
+          <img src="" alt="">
+          <h4></h4>
+          <p>hei</p>
+        </div>
+
+        <div class="fem">
+          <img src="" alt="">
+          <h4>hei</h4>
+          <p></p>
+        </div>
+
+        <div class="seks">
+          <img src="" alt="">
+          <h4></h4>
+          <p></p>
+        </div>
+
+        <div class="sju">
+          <img src="" alt="">
+          <h4></h4>
+          <p>hei</p>
+
+        </div>
+
+        <div class="åtte">
+          <img src="" alt="">
+          <h4></h4>
+          <p></p>
+        </div>
+
+        <div class="ni">
+          <img src="" alt="">
+          <h4></h4>
+          <p></p>
+
+        </div>
+      </section>
+    </main>
+
+    <footer>
+
+
+
+
+
+    </footer>
+
+  </body>
+</html>

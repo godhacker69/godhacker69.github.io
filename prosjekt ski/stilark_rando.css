@@ -1,0 +1,50 @@
+.navbar{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  list-style-type: none;
+  text-decoration: none;
+
+
+}
+.navbar a{
+  display: block;
+  padding: 8px 16px;
+  background-color: lightgrey;
+}
+
+main{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-gap: 20px;
+  background: pink;
+  padding: 30px;
+  text-align: center;
+  border-radius: 5px;
+  grid-column-gap: 10px;
+}
+
+video{
+width: 1420px;
+height: 500px;
+}
+
+
+header{
+  margin-left: auto;
+  text-align: center;
+  margin-top: 80px;
+  font-family: sans-serif;
+}
+.navbar a{
+  display: block;
+  padding: 8px 16px;
+  background-color: lightgrey;
+  color: inherit;
+  text-decoration: none;
+
+}
+a:hover{
+  background-color: #555;
+  cursor:pointer;
+  color: white;
+}
